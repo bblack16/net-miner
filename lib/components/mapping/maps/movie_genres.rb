@@ -104,9 +104,9 @@ module NetMiner
           ]
         },
         {
-          value: 'Sci-Fi',
+          value: 'Science Fiction',
           aliases: [
-            'Science Fiction', 'Science-Fiction',
+            'Sci-Fi', 'Science-Fiction', 'Sci Fi'
           ]
         },
         {

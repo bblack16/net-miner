@@ -14,9 +14,14 @@ module NetMiner
 
       def embedable_url
         case site.to_s.downcase
-        when :youtube
+        when 'youtube'
           "https://youtube.com/embed/#{id}"
         end
+      end
+
+      def aspect_ratio
+        return 0 unless width && height
+        width / height.to_f
       end
 
     end

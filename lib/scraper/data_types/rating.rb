@@ -9,6 +9,7 @@ module NetMiner
       attr_float :scale, default_proc: :guess_scale
       attr_element_of TYPES, :type, default: TYPES.first
       attr_int :votes, default: 1
+      attr_hash :metadata
 
       def percentage
         value / scale

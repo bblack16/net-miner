@@ -7,6 +7,7 @@ require 'nokogiri'
 require 'digest'
 require 'cgi'
 
+require_relative 'util/constants'
 require_relative 'scraper/scraper'
 require_relative 'components/mapping/map'
 require_relative 'components/api_key_scraper'

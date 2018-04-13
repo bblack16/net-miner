@@ -5,6 +5,7 @@ module NetMiner
 
       attr_str :url, required: true, arg_at: 0
       attr_str :language, default: nil, allow_nil: true
+      attr_hash :metadata
 
       def site
         url.scan(/https?\:\/\/w{3}?\.?(.*?)\.\w{2,3}[$\/\:]/i).flatten.first

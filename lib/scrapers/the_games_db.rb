@@ -1,7 +1,7 @@
 require 'net_miner' unless defined?(NetMiner::VERSION)
 
-module TheGamesDb
-  IMAGE_BASE = 'http://thegamesdb.net/banners/'.freeze
+module TheGamesDB
+  IMAGE_BASE = 'http://TheGamesDB.net/banners/'.freeze
 
   {
     '3DO'                                 => { the_games_db_id: '3DO' },
